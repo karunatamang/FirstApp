@@ -13,7 +13,7 @@ public class Calculator extends AppCompatActivity implements View.OnClickListene
     Button seven, eight, nine, zero, one, two, three, four, five, six, multily, divide, subtract, add, clear, equal;
     String displaynum = "";
     int res;
-    String op;
+    String op, tt;
     int num1, num2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
